@@ -6,6 +6,10 @@ public class Aluno {
 
     }
 
+    public void exibirAluno(){
+        System.out.println(getNome()+", "+getIdade());
+    }
+
     public String getNome() {
         return nome;
     }
@@ -13,6 +17,7 @@ public class Aluno {
     public void setNome(String nome) {
         this.nome = nome;
     }
+
 
     public int getIdade() {
         return idade;

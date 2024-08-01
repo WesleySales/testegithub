@@ -11,8 +11,8 @@ public class Main {
         aluno2.setNome("Ingrid");
         aluno2.setIdade(19);
 
-        System.out.println(aluno1);
-        System.out.println(aluno2);
+        aluno1.exibirAluno();
+        aluno2.exibirAluno();
 
     }
 }
